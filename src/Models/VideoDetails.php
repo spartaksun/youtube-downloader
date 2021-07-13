@@ -47,4 +47,9 @@ class VideoDetails
     {
         return Utils::arrayGet($this->videoDetails, 'viewCount');
     }
+
+    public function getLengthSeconds()
+    {
+        return Utils::arrayGet($this->videoDetails, 'lengthSeconds');
+    }
 }
